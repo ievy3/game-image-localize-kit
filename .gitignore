@@ -1,0 +1,13 @@
+# 글꼴 파일 (각자 받는다 — FONTS.md)
+fonts/*
+!fonts/README.md
+
+# 게임 그림·작업물은 키트에 넣지 않는다
+*.png
+*.zip
+!tests/**/*.png
+
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
